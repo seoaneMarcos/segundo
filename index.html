@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>re</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <h1>Practica de taller de programacion</h1>
+</head>
+<body>
+
+
+
+<div class="contenedor1" >
+
+<div class="slideshow-container">
+  <h1 class="title">Colegio el buen pastor</h1>
+  
+  <div class="mySlides fade">
+    
+    <img src="img1.jpg" style="width:100%">
+
+  </div>
+
+  <div class="mySlides fade">
+    
+    <img src="img2.jpg" style="width:100%">
+  
+  </div>
+
+  <div class="mySlides fade">
+    
+    <img src="img3.jpg" style="width:100%">
+   
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+
+<!--<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>-->
+<script type="text/javascript" src="index.js"></script>
+
+</div> 
+
+
+<div class ="enlaces">
+  
+<a class="color1" href="#">Informacion</a>
+<a  class="color2" href="#">Album de fotos</a>
+<a  class="color3" href="#">Educacion Infantil</a>
+<a class="color1" href="#">Educacion Primaria</a>
+<a class="color3"  href="#">E.S.O.</a>
+<a  class="color1" href="#">Bachillerato</a>
+<a class="color3" href="#">Formacion Profesional</a>
+<a class="color2"  href="#">Portal transparente</a>
+<a href="#">Enlaces</a>
+
+</div>
+
+
+
+<div class="video">
+ 
+           
+                   <div class="boton">
+             <a href="#registro"> <button type="button" >REGISTRAR   </button></a>
+                   </div>
+                
+                
+
+ <iframe width="90%" height="70%" src="https://www.youtube.com/embed/tpflPFyCIkY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</div>
+
+
+
+
+<div id="registro">
+   <head><h1>REGISTRAR</h1></head>
+
+     <form>
+          <div class="f1" >
+           <label>Usuario</label>
+           <input class="storage"   type="text"  name="usuario" id="usuario" placeholder=" Usuario">
+           <label>Contraseña</label>
+           <input class="storage"   type="password"  name="password" id="password" placeholder="password">
+           <label>Correo Electronico</label>
+           <input  class="storage"   type="text"  name="mail" id="mail" placeholder="Correo electronico">    
+          </div>
+
+          <div class="f2" >
+           <label>Nombres</label>
+           <input  class="storage"   type="text"  name="nombres" id="nombres" placeholder="Nombres">
+           <label>Repetir Contraseña</label>
+           <input class="storage"   type="password2"  name="password2" id="password2" placeholder="Password">
+           <label>Celular</label> 
+           <input  class="storage"   type="text"  name="phone" id="phone" placeholder="Celular">      
+          </div>
+
+
+     </form>         
+                <div class="boton">
+             <a href="#registro"> <button class="boto" type="button" onclick="registro()" >REGISTRAR   </button></a>
+                   </div>
+                
+      <script type="text/javascript" src="index2.js"></script>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
